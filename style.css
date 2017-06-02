@@ -50,3 +50,30 @@ body {
 	  border-top-right-radius: 0;
 	}
 }
+
+.infos {
+	background: #f7f7f7;
+    height:100vh;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border: 1px solid grey;
+    width: 100%;   
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.controls img {
+	width: 60%;
+	margin: 20px auto;
+}
